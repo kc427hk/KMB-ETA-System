@@ -6,6 +6,7 @@
 *.elf
 *.bin
 *.hex
+/get_KMB_Chin_Char/
 
 # Windows 系統自動生成嘅隱藏檔
 Thumbs.db
