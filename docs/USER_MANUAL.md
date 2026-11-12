@@ -15,13 +15,13 @@ Because this system features an intelligent Wi-Fi configuration portal, you **do
 1. **Power On**: Connect the device to a stable 5V power source using a USB Type-C cable.
 
 2. **AP Mode Activation**: Upon first boot (or if the saved Wi-Fi cannot be reached), the ESP32-S3 will automatically enter **Access Point (AP) Mode**.
-
+   
 <img src="images/AP_Mode.jpg" width="350" alt="AP_Mode">
-
+   
 3. **Connect via Phone**: 
    - Open your smartphone's Wi-Fi settings and look for an open network named **`KMB-ETA-Setup`** .
    - Connect to it. A configuration portal page should automatically pop up on your phone screen (Captive Portal).
-   
+
 <img src="images/AP_mode_mobile_portal_page.jpg" width="350" alt="AP_mode_mobile_portal_page">
 
 4. **Enter Credentials**: Select your home Wi-Fi SSID, enter your password, and hit **Save**.
