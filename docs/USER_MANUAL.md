@@ -21,9 +21,11 @@ Because this system features an intelligent Wi-Fi configuration portal, you **do
 3. **Connect via Phone**: 
    - Open your smartphone's Wi-Fi settings and look for an open network named **`KMB-ETA-Setup`** .
    - Connect to it. A configuration portal page should automatically pop up on your phone screen (Captive Portal).
+   
 <img src="images/AP_mode_mobile_portal_page.jpg" width="350" alt="AP_mode_mobile_portal_page">
 
 4. **Enter Credentials**: Select your home Wi-Fi SSID, enter your password, and hit **Save**.
+
 <img src="images/AP_mode_mobile_portal_page_saved.jpg" width="350" alt="AP_mode_mobile_portal_page_saved">
 
 5. **Automatic Reboot**: The device will save your credentials to flash memory and automatically reboot to connect to your live network.
@@ -32,6 +34,7 @@ Because this system features an intelligent Wi-Fi configuration portal, you **do
 
 ## 🧭 2. Basic Operation & Display Guide
 The screen layout and on-screen controls are designed for intuitive daily usage:
+
 <img src="images/main_screen.jpg" width="350" alt="main_screen">
 
 - **Connection & Status Bar**: Indicates Wi-Fi signal strength, battery status, and the last updated time.
@@ -44,28 +47,37 @@ The screen layout and on-screen controls are designed for intuitive daily usage:
 ---
 
 ## ⚙️ 3. Configuration & Setup Menu
+
 <img src="images/Setup_menu.jpg" width="350" alt="Setup_menu">
+
 By tapping the **Setting** button at the bottom center of the screen, you can access the Setup Menu to configure the following options:
 
 - **Display Brightness**: Adjust the LCD backlight intensity to suit your desk or room lighting environment.
+
 <img src="images/brightness.jpg" width="350" alt="brightness">
 
 - **Sleep Time**: Set the idle duration before the system automatically enters sleep mode.
+
 <img src="images/idle_time_to_sleep.jpg" width="350" alt="idle_time_to_sleep">
 
 - **Route Config**: Configure your preferred bus routes and stop selections.
+
 <img src="images/Route_Config.jpg" width="350" alt="Route_Config">
 
 - **Wi-Fi Setup**: Reconfigure your network credentials if you change your router or Wi-Fi password.
+
 <img src="images/WiFi_setup.jpg" width="350" alt="WiFi_setup">
 
 - **Refresh Time**: Adjust the update intervals for fetching live bus countdowns.
+
 <img src="images/Bus_Route_Refresh_Time.jpg" width="350" alt="Bus_Route_Refresh_Time">
 
 - **Factory Reset**: Erase all saved configurations and restore the system to default settings.
+
 <img src="images/Factory_Reset.jpg" width="350" alt="Factory_Reset">
 
 - **System Info**: View device firmware version, network status, and hardware information.
+
 <img src="images/System_Info.jpg" width="350" alt="System_Info">
 
 ---
@@ -74,6 +86,7 @@ By tapping the **Setting** button at the bottom center of the screen, you can ac
 If you change your home router, SSID, or Wi-Fi password, you can easily reconfigure the network settings:
 
 1. **Trigger Setup Mode**: Access the Setup Menu via the screen's **Setting** button and select **Wi-Fi Setup** (or perform a reset if the device fails to connect to the previous network).
+
 <img src="images/WiFi_setup.jpg" width="350" alt="WiFi_setup">
 
 2. **Connect to AP**: Open your smartphone’s Wi-Fi settings and connect to the open access point named **`KMB-ETA-Setup`**.
@@ -89,6 +102,7 @@ The **Route Config** process is handled through a built-in web portal. This allo
 
 ### Step-by-Step Setup:
 1. **Enter Route Config**: Tap the **Setting** button at the footer of the main screen, then select **Route Config**.
+
 <img src="images/Route_Config.jpg" width="350" alt="Route_Config">
 
 
@@ -99,6 +113,7 @@ The **Route Config** process is handled through a built-in web portal. This allo
    *(Note: A red dot indicates your current selection. Tap your desired layout to confirm, eg, Layout 1)*
 
 3. **Launch Web Portal**: After selecting a layout, the device will display a **Route Config Portal** screen showing your current Wi-Fi network and a local IP address (e.g., `http://192.168.X.X`).
+
 <img src="images/Route_Config_Portal.jpg" width="350" alt="Route_Config_Portal">
 
 4. **Connect via Phone/PC**: Ensure your smartphone or computer is connected to the **same Wi-Fi network**. Open a web browser and enter the exact IP address shown on the ESP32 screen.
@@ -106,6 +121,7 @@ The **Route Config** process is handled through a built-in web portal. This allo
 > ⚠️ **Important Note**: Using a "Guest Wi-Fi" network from your home router may prevent you from accessing the portal due to standard security blocking (AP Isolation). Please ensure both devices are on your primary home network.
 
 5. **Configure Settings in Browser**: The KMB ETA Configuration page will load in your web browser.
+
 <img src="images/KMB_ETA_Config_page.jpg" width="350" alt="KMB_ETA_Config_page">
 
 
@@ -114,9 +130,11 @@ The **Route Config** process is handled through a built-in web portal. This allo
      - **1. Route**: Select the bus number (e.g., 1A, 98D).
      - **2. Direction**: Choose the destination and service type (Regular/Special).
      - **3. Stop**: Select your exact boarding stop. *(Note: The stop list is fetched live from KMB servers; please wait a few seconds for the dropdown to populate after selecting a direction).*
+
 <img src="images/KMB_ETA_Config_page_2.jpg" width="350" alt="KMB_ETA_Config_page_2">
 
 6. **Save & Reboot**: Once all slots are configured, scroll to the bottom and click **"Save & Apply to ESP32"**. The device will save your preferences and automatically reboot to display your new routes.
+
 <img src="images/KMB_ETA_Config_page_saved.jpg" width="350" alt="KMB_ETA_Config_page_saved">
 
 ---
@@ -135,15 +153,18 @@ The **Route Config** process is handled through a built-in web portal. This allo
 1. **接通電源**：使用 USB Type-C 電源線將裝置連接至穩定的 5V 電源。
 
 2. **啟動 AP 模式**：首次開機（或無法連接已儲存的 Wi-Fi 網絡）時，ESP32-S3 會自動進入**熱點（AP）配網模式**。
+
 <img src="images/AP_Mode.jpg" width="350" alt="AP_Mode">
 
 
 3. **透過手機連線**：
    - 開啟手機的 Wi-Fi 設定，搜尋並連接名為 **`KMB-ETA-Setup`** 的開放式網絡。
    - 連線後，手機螢幕會自動彈出 Wi-Fi 設定網頁（Captive Portal）。
+
    <img src="images/AP_mode_mobile_portal_page.jpg" width="350" alt="AP_mode_mobile_portal_page">
 
 4. **輸入網絡資料**：選擇或輸入你的家居 Wi-Fi 名稱（SSID）及密碼，然後點擊 **Save**。
+
 <img src="images/AP_mode_mobile_portal_page_saved.jpg" width="350" alt="AP_mode_mobile_portal_page_saved">
 
 5. **自動重新啟動**：裝置會將網絡資料儲存至快閃記憶體，並自動重新啟動以連接你的 Wi-Fi 網絡。
@@ -152,7 +173,9 @@ The **Route Config** process is handled through a built-in web portal. This allo
 
 ## 🧭 2. 基本操作與畫面說明
 螢幕版面與觸控按鍵專為直觀的日常操作而設：
+
 <img src="images/main_screen.jpg" width="350" alt="main_screen">
+
 - **連線與狀態欄**：顯示 Wi-Fi 訊號強度、電池狀態及最後更新時間。
 - **主畫面巴士到站時間**：即時顯示已設定巴士路線的預計到站分鐘數及班次倒數。
 - **底部工具列 - 設定按鈕（正中）**：
