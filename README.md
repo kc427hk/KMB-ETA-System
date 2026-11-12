@@ -14,7 +14,7 @@ A standalone, touch-enabled real-time Kowloon Motor Bus (KMB) arrival display po
 
 **Created by: KC427**
 
-![KMB ETA System Main Screen](docs/images/main_screen.jpg)
+<img src="docs/images/main_screen.jpg" width="350" alt="main_screen">
 
 ---
 
@@ -97,7 +97,8 @@ This project is open-source and licensed under the **MIT License** — see the [
 
 **作者：KC427**
 
-![KMB ETA System 主畫面](docs/images/main_screen.jpg)
+<img src="docs/images/main_screen.jpg" width="350" alt="main_screen">
+
 
 ---
 

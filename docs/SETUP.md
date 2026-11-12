@@ -27,7 +27,7 @@ This project utilizes LittleFS to store `.vlw` smooth font files inside the `dat
 1. Open `KMB-ETA-System.ino` in Arduino IDE.
 2. Configure the project setting as below: 
 
-![Arduino Setting](images/ArduinoSetting.jpg)
+<img src="images/ArduinoSetting.jpg" width="350" alt="Arduino 設定">
 
 3. Compile and Upload the code to the board.
 
@@ -61,6 +61,7 @@ This project utilizes LittleFS to store `.vlw` smooth font files inside the `dat
 1. 在 Arduino IDE 中開啟 `KMB-ETA-System.ino`。
 2. 依照下圖設定專案編譯參數：
 
-![Arduino 設定](images/ArduinoSetting.jpg)
+<img src="images/ArduinoSetting.jpg" width="350" alt="Arduino 設定">
+
 
 3. 編譯（Compile）並將程式碼上傳（Upload）至開發板。
