@@ -10,7 +10,7 @@
 [![LovyanGFX](https://img.shields.io/badge/Display-LovyanGFX-orange.svg)](https://github.com/lovyan03/LovyanGFX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A standalone, touch-enabled real-time Kowloon Motor Bus (KMB) arrival display powered by **ESP32-S3** and **LovyanGFX**.
+A standalone, touch-enabled real-time Kowloon Motor Bus (KMB) arrival display powered by **ESP32-S3** and **LovyanGFX** with AI assisted in coding.
 
 **Created by: KC427**
 
@@ -20,7 +20,7 @@ A standalone, touch-enabled real-time Kowloon Motor Bus (KMB) arrival display po
 
 ## 📖 Overview
 
-**KMB ETA System** is a compact desktop and portable bus arrival dashboard built on the **Waveshare ESP32-S3 Touch LCD 3.5** development board. It fetches live Estimated Time of Arrival (ETA) data directly from the KMB Open Data API alongside regional temperatures from the Hong Kong Observatory (HKO). Designed with a built-in Captive Portal and Web Configuration interface, all Wi-Fi credentials, screen layouts, and bus routes can be configured directly from your smartphone or PC browser without hardcoding anything in the firmware.
+**KMB ETA System** is a compact desktop and portable bus arrival dashboard built on the **Waveshare ESP32-S3 Touch LCD 3.5** development board. It fetches live Estimated Time of Arrival (ETA) data directly from the KMB Open Data API alongside regional temperatures from the Hong Kong Observatory (HKO). Designed with a built-in Captive Portal and Web Configuration interface, all Wi-Fi credentials, screen layouts, and bus routes can be configured directly from your smartphone or PC browser without hardcoding anything in the firmware. It is a brillant project with AI assisted.
 
 ---
 
@@ -93,7 +93,7 @@ This project is open-source and licensed under the **MIT License** — see the [
 [![LovyanGFX](https://img.shields.io/badge/Display-LovyanGFX-orange.svg)](https://github.com/lovyan03/LovyanGFX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-一款基於 **ESP32-S3** 與 **LovyanGFX** 開發的獨立式觸控九巴（KMB）實時到站時間顯示系統。
+一款基於 **ESP32-S3** 與 **LovyanGFX** 開發的獨立式觸控九巴（KMB）實時到站時間顯示系統再加上用 AI 協助寫程式。
 
 **作者：KC427**
 
@@ -104,7 +104,7 @@ This project is open-source and licensed under the **MIT License** — see the [
 
 ## 📖 專案簡介
 
-**KMB ETA System** 是一款建基於 **Waveshare ESP32-S3 Touch LCD 3.5** 開發板的輕巧桌面及便攜式巴士到站資訊顯示屏。系統直接從九巴開放數據 API（KMB Open Data API）抓取實時預計到站時間（ETA），並同步顯示香港天文台（HKO）的分區氣溫資訊。本專案內置強制門戶網頁（Captive Portal）及網頁設定介面（Web Configuration），所有 Wi-Fi 連線資料、畫面佈局及巴士路線均可直接透過手機或電腦瀏覽器設定，無需在韌體程式碼中預先寫死任何參數。
+**KMB ETA System** 是一款建基於 **Waveshare ESP32-S3 Touch LCD 3.5** 開發板的輕巧桌面及便攜式巴士到站資訊顯示屏。系統直接從九巴開放數據 API（KMB Open Data API）抓取實時預計到站時間（ETA），並同步顯示香港天文台（HKO）的分區氣溫資訊。本專案內置強制門戶網頁（Captive Portal）及網頁設定介面（Web Configuration），所有 Wi-Fi 連線資料、畫面佈局及巴士路線均可直接透過手機或電腦瀏覽器設定，無需在韌體程式碼中預先寫死任何參數。加上 AI 嘅幫手協助，令整個系統非常實用。
 
 ---
 
