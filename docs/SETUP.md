@@ -4,7 +4,7 @@
 ## English
 # ⚙️ Setup & Installation Guide
 
-Step-by-step instructions to set up your development environment, compile the code, and flash assets to your ESP32-S3.
+Step-by-step instructions to set up your development environment, compile the code, and flash assets to your ESP32-S3 with 480x320 resolution.
 
 ---
 
@@ -38,7 +38,7 @@ This project utilizes LittleFS to store `.vlw` smooth font files inside the `dat
 
 # ⚙️ 環境設定與燒錄指南
 
-本指南提供逐步教學，協助你設定開發環境、編譯程式碼，並將字型資源燒錄至 ESP32-S3 開發板。
+本指南提供逐步教學，協助你設定開發環境、編譯程式碼，並將字型資源燒錄至 ESP32-S3 開發板，解像度為 480x320。
 
 ---
 

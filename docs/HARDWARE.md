@@ -10,7 +10,7 @@ This document outlines the hardware components, specifications, and physical wir
 ---
 
 ## 🛠️ Components List
-- **Microcontroller & Display**: [Waveshare ESP32-S3 Touch LCD 3.5](https://docs.waveshare.com/ESP32-S3-Touch-LCD-3.5) (with official enclosure case)
+- **Microcontroller & Display**: [Waveshare ESP32-S3 Touch LCD 3.5](https://docs.waveshare.com/ESP32-S3-Touch-LCD-3.5) (with official enclosure case) with 480x320 resolution.
 - **Display Driver**: Driven via SPI using the `LovyanGFX` library
 - **Power Supply**: 5V USB Type-C
 
@@ -54,7 +54,7 @@ The onboard power management chipset and touch controller(FT6336) share the I2C 
 ---
 
 ## 🛠️ 組件清單
-- **微控制器與顯示屏**：[Waveshare ESP32-S3 Touch LCD 3.5](https://docs.waveshare.com/ESP32-S3-Touch-LCD-3.5)（連官方保護外殼）
+- **微控制器與顯示屏**：[Waveshare ESP32-S3 Touch LCD 3.5](https://docs.waveshare.com/ESP32-S3-Touch-LCD-3.5)（連官方保護外殼），解像度為 480x320。
 - **顯示驅動程式**：透過 SPI 介面並使用 `LovyanGFX` 程式庫驅動
 - **電源供應**：5V USB Type-C
 
