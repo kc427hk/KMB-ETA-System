@@ -9,9 +9,10 @@ Step-by-step instructions to set up your development environment, compile the co
 ---
 
 ## 1. Prerequisites
-- **Arduino IDE** (v2.x recommended) with ESP32 board package installed.
+- **Arduino IDE** (v2.x recommended) with ESP32 board package installed.  V2.3.10 Tested.
 - **Required Libraries**:
-  - `LovyanGFX` (Install via Arduino Library Manager)
+  - `LovyanGFX` (Install via Arduino Library Manager) V1.2.36 Tested.
+  - `ESP32 Board` driver V3.3.12 Tested.
 
 ---
 
@@ -43,9 +44,10 @@ This project utilizes LittleFS to store `.vlw` smooth font files inside the `dat
 ---
 
 ## 1. 前置準備
-- **Arduino IDE**（建議使用 v2.x 版本），並已安裝 ESP32 開發板支援套件。
+- **Arduino IDE**（建議使用 v2.x 版本），並已安裝 ESP32 開發板支援套件。V2.3.10 已測試
 - **必備程式庫**：
-  - `LovyanGFX`（可透過 Arduino 程式庫管理員安裝）
+  - `LovyanGFX`（可透過 Arduino 程式庫管理員安裝）V1.2.36 已測試
+  - `ESP32 Board` 騙動程式 V3.3.12 已測試
 
 ---
 
